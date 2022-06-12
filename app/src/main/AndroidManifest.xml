@@ -16,6 +16,8 @@
         android:theme="@style/Theme.RecuAndroid"
         android:usesCleartextTraffic="true"
         tools:targetApi="31" >
+
+        //Implementamos usesClearTextTraffic para poder trabajar con rutas no seguras: http
         <activity
             android:name=".Ui.Detail_Animals"
             android:exported="false" />
